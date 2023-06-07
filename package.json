@@ -1,0 +1,23 @@
+{
+  "name": "ConversorJson",
+  "version": "1.0.0",
+  "description": "ConversorJson",
+  "author": "Iván",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "builder": "electron-builder"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^12.0.0",
+    "electron-builder": "^24.4.0"
+  },
+  "license": "MIT",
+  "build": {
+    "productName": "ConversorJson",
+    "win": {
+      "target": "NSIS"
+    }
+  }
+}
